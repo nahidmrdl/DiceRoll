@@ -1,0 +1,59 @@
+body{
+    background-color: lightblue;
+    /*font-family: 'Rage Italic', cursive;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#container{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: lightyellow;
+    font-weight: bold;
+}
+button:hover{
+    background-color: greenyellow;
+
+}
+button:active{
+    background-color: darkseagreen;
+}
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#diceResult {
+    margin: 25px;
+    overflow-wrap: break-word; /* Allow words to break onto the next line */
+}
+
+
+#diceImages{
+    background-color: lightyellow;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px hsla(0, 0%, 0%, 1);
+    max-width: 75%;
+    margin: auto;
+}
+
+#diceImages img{
+    width: 150px;
+    padding: 15px 20px;
+}
+
